@@ -1,5 +1,5 @@
 
-#this function collects information about the charter in the game and returns it to the main code.
+#This function collects information about the charter in the game and returns it to the main code.
 def info():
     description = []
     import random
@@ -26,14 +26,14 @@ def info():
 
     print("As you walk towards Bob he whips out some sort of shiny thing from his pocket.")
     time.sleep(2)
-    print("You recognize it as the sign of the Overly Religous Dude's Everyone Resents.")
+    print("You recognize it as the sign of the Overly Religious Dude's Everyone Resents.")
 
     cleric = input("Do you feel inspired by this?y/n")
     if (cleric == 'y'):
         print("AH HA Bob says A fellow O.R.D.E.R member! Welcome Brother!!")
-        description.append('overly religous ')
+        description.append('overly religious ')
         time.sleep(2)
-        print("You preform the secret handshake with the obligatory 360 spin fist bump.")
+        print("You perform the secret handshake with the obligatory 360 spin fist bump.")
         time.sleep(2)
     else:
         print("Ah says Bob A heathen I see, He eyes you angrily")
@@ -58,7 +58,7 @@ def info():
     else:
         description.append('dude')
     if (strength == 'y') and (cleric == 'y') and (wizard == 'y'):
-        description = ('Medievall Batman, like calm down bro it was ok to hit n you know.')
+        description = ('Medieval Batman, like calm down bro it was ok to hit n you know.')
         
     print("You are a!!!???")
     time.sleep(2)
@@ -66,8 +66,3 @@ def info():
     time.sleep(2)
 
     return[name,strength,cleric,wizard,description]
-
-
-
-    
-
